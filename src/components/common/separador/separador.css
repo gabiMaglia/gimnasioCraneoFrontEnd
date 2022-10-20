@@ -1,0 +1,35 @@
+.separador {
+    z-index: -2;
+    width: 100%;
+    margin-top: -9%;
+    height: 25rem;
+    background: url(./../../../assets/img//Cabeceras/cab3.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.3s ease-in-out all;
+    
+  }
+  .redSpark {
+
+    width: 100%;
+    margin-top: -6%;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cabecera {
+      height: 24.375rem;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .cabecera {
+      height: 20rem;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .cabecera {
+      height: 12.375rem;
+    }
+  }
+  

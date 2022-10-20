@@ -1,0 +1,49 @@
+#perfilPersonal{
+    color: var(--white);
+    background-color: var(--black)!important;
+}
+
+.personal{
+    display: grid;
+   
+    min-height: 100%;
+    grid-template-rows: 200px;
+    border: 1px solid red;
+}
+.img-cont{
+    display: grid;
+    place-content: center;
+    background-color: white;
+}
+
+.data-list{
+    padding: 0!important;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.data-list li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid white;
+    height: 2.5rem;
+}
+
+.rutina{
+   
+    border: 1px solid red;
+    min-height: 40rem;
+    background-color: aliceblue;
+}
+
+tr > td:nth-child(4){
+    text-align: center;
+}
+.algo{
+   
+    border: 1px solid red;
+    min-height: 100%;
+    background-color: aliceblue;
+}
+

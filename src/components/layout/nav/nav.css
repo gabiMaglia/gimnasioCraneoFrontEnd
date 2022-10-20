@@ -1,0 +1,113 @@
+  .banner{
+    flex: content;
+  } 
+  .navbar {
+    z-index: 2;
+    background: var(--blackTrans)!important;
+    }
+
+    .container{
+        display: flex;
+flex-direction: row;
+
+align-items: center;
+justify-content: space-between;
+    }
+
+    .navbar-collapse{
+        flex-grow: 0!important ;
+    }
+    
+  .logoText {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    padding: 0;
+    width: auto;
+   
+  }
+  .mainLogo {
+    font-size: 1.9375rem;
+    font-family: "Octin College Bold";
+    letter-spacing: 0.18em; /* delicia de iluminacion */
+    text-shadow: 0 0 6.25rem var(--white);
+  
+    /* Clip Background Image */
+  
+    background: url(./../../../assets/img/Anims/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    /* Animate Background Image */
+  
+    -webkit-text-fill-color: transparent;
+    animation: aitf 80s linear infinite;
+  
+    /* Activate hardware acceleration for smoother animations */
+  
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+  }
+  
+  /* Animate Background Image */
+  
+  @keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .nav {
+    align-items: center;
+    text-shadow: 0 0 5rem rgba(255, 255, 255, 0.5);
+  }
+  .nav li {
+    font-size: 14px;
+  }
+  
+  .button {
+    text-shadow: 0 0 0.0625rem var(--white);
+    display: block;
+    margin-right: 0.375rem;
+    letter-spacing: 0.1em;
+    color: var(--white);
+    padding: 0.3125rem 0.375rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    transition: 0.3s;
+    text-shadow: 0 0 0.0813rem var(--white);
+  
+    color: var(--redLogo);
+  }
+
+  
+  .socialMedia {
+    border-left: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: block;
+    text-align: left;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+    margin: 0 0.375rem;
+  }
+  .socialMedia:hover {
+    color: rgb(253, 172, 132);
+    text-shadow: 0 0 0.5rem var(--white);
+  }
+  
+  .logBtn:hover{
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
