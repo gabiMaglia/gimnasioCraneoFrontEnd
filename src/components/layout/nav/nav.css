@@ -110,4 +110,15 @@ justify-content: space-between;
   
   
   
-  
+  @media only screen and (max-width: 700px){
+    .mainLogo{
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 420px){
+    .mainLogo{
+      font-size: 14px;
+      margin-left: -10px!important;
+    }
+  }

@@ -7,6 +7,7 @@
     background-attachment: fixed;
     background-size: cover;
     transition: 0.3s ease-in-out all;
+    -moz-transition: 0.3s ease-in-out all;
     
   }
   .redSpark {
@@ -16,19 +17,19 @@
   }
   
   @media only screen and (max-width: 1024px) {
-    .cabecera {
+    .separador {
       height: 24.375rem;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .cabecera {
+    .separador {
       height: 20rem;
     }
   }
   
   @media only screen and (max-width: 420px) {
-    .cabecera {
+    .separador {
       height: 12.375rem;
     }
   }
