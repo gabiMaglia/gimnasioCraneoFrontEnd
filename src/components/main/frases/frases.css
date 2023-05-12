@@ -1,61 +1,70 @@
 .frases {
-    background: var(--black);
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  .say1 {
+  height: 100%;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.say1 {
+  margin-top: 5rem;
   text-align: left;
-  margin-top: -7rem;
+}
+.say2 {
+  margin-top: 14rem;
+  text-align: right;
+}
+
+.say3 {
+  margin-top: 24rem;
+  margin-bottom: 3rem;
+  text-align: right;
+}
+
+.frases section {
+  width: 100%;
+}
+
+h2 span {
+  font-size: 28px;
+  font-family: "Octin College Bold";
+  letter-spacing: 0.18em; /* delicia de iluminacion */
+  text-shadow: 0 0 2.25rem var(--white);
+
+  transition: 2s;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  /* transform: translate3d(0, 0, 0);
+    backface-visibility: hidden; */
+}
+
+@media screen and (max-width: 800px) {
+  .say1 {
+    text-align: center;
+
+    /* margin-top: -5rem; */
   }
   .say2 {
-    margin-top: 3rem;
-    text-align: right;
+    margin-top: 7rem;
+    text-align: center;
   }
-  
+
   .say3 {
-    margin-top: 12rem;
-    margin-bottom: 3rem;
-    text-align: right;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 8rem;
   }
-  
-  .frases section {
-    width: 100%;
-  }
-  
   h2 span {
-    font-size: 28px;
-    font-family: "Octin College Bold";
-    letter-spacing: 0.18em; /* delicia de iluminacion */
-    text-shadow: 0 0 2.25rem var(--white);
-  
-    transition: 2s;
-  
-    /* Activate hardware acceleration for smoother animations */
-  
-    /* transform: translate3d(0, 0, 0);
-    backface-visibility: hidden; */
+    font-size: 20px;
   }
-  
-  
-  
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     .say1 {
-        text-align: center;
-        margin-top: -5rem;
-        }
-        .say2 {
-          margin-top: 5rem;
-          text-align: center;
-        }
-        
-        .say3 {
-          margin-top: 5rem;
-          text-align: center;
-          margin-bottom: 0;
-        }
+      word-break: break-all;
+      max-width: 250px;
+      /* margin-top: -5rem; */
+    }
   }
-  
+}

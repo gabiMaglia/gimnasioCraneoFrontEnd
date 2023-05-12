@@ -14,6 +14,7 @@ const docenteCard = (props) => {
             <p>{titulo}</p>
           </div>
         </div>
+        
         <div className="picCont">
           <img src={foto} alt={apellido} className="picture" />
         </div>

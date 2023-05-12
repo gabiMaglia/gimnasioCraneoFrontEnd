@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./nosotros.css";
-import openSpark from "./../../../assets/img/Fondos/footer.png";
+import openSpark from "./../../../assets/img/Fondos/header.png";
 import axios from "axios";
 import DocenteCard from "../../common/docente-card/DocenteCard";
 
@@ -11,18 +11,24 @@ const Nosotros = () => {
   useEffect(() => {
     const cargarDocentes = async () => {
       setLoading(true);
-      const response = await axios.get(
-        `${process.env.REACT_APP_API_URL}/api/docentes`
-      );
-      setDocente(response.data);
-      setLoading(false);
+      try {
+        const response = await axios.get(
+          `${process.env.REACT_APP_API_URL}/api/docentes`
+        );
+        setDocente(response.data);
+        setLoading(false);
+      } catch (error) {
+        console.log(error);
+      }
     };
     cargarDocentes();
   }, []);
 
   return (
     <>
-      <img src={openSpark} alt="spark" className="redSpark" />
+      <div className="separator">
+        <img src={openSpark} alt="spark" className="redSpark" />
+      </div>
 
       <section id="nosotros" className="nosotros section-container">
         <div className="someWords">

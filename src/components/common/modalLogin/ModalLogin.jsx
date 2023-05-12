@@ -61,9 +61,9 @@ const ModalContainer = styled.div`
   min-height: 500px;
   position: relative;
   border-radius: 15px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 50px,
-    rgba(139, 100, 100, 0.1) 0px 7px 39px 50px,
-    rgba(100, 100, 111, 0.3) 0px 7px 60px 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
+    rgba(139, 100, 100, 0.1) 0px 7px 19px 10px,
+    rgba(100, 100, 111, 0.3) 0px 7px 200px 0px;
 
   padding: 2.1rem;
   font-family: "Octin College Bold";

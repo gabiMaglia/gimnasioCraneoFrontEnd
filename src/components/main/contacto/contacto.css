@@ -1,6 +1,7 @@
 .mainContacto {
   min-height: 70rem;
   background-color: var(--black);
+  margin-top: -4rem;
 }
 
 .tituloContacto {
@@ -80,5 +81,4 @@
     background: url("./../../../assets/img/etc/cuadro2.png") no-repeat center;
     padding: 130px 0 0 13px;
   }
-
 }

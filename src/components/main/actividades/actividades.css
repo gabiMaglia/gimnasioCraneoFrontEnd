@@ -3,6 +3,7 @@
   font-family: "Octin College Bold";
   text-align: center;
   min-height: 50rem;
+  margin-top: -3rem;
 }
 
 .titActividades {
@@ -14,8 +15,8 @@
   display: flex;
   place-content: center;
   flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
-
 
 .actividades {
   display: grid;
@@ -23,15 +24,13 @@
   width: 320px;
   padding: 2%;
   flex-direction: column;
-
 }
 
 .actividades:hover figure {
-    opacity: 1;
+  opacity: 1;
 }
 
 .actividades figure {
-
   opacity: 0.8;
   width: 90%;
   background: var(--redLogo);
