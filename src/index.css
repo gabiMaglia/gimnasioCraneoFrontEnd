@@ -94,10 +94,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.section-container {
-  /* z-index: -999999; */
-}
-
 .hover-underline-animation-light {
   display: inline-block;
   position: relative;

@@ -40,6 +40,13 @@ h2 span {
   /* transform: translate3d(0, 0, 0);
     backface-visibility: hidden; */
 }
+@media (max-width: 1145px) and (min-width: 800px) {
+  .say3 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    text-align: right;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .say1 {
@@ -67,8 +74,12 @@ h2 span {
       /* margin-top: -5rem; */
     }
     .say2 {
+      margin-top: 15rem;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .say2 {
       margin-top: 6rem;
-     
     }
   }
 }
