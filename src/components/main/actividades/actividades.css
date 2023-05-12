@@ -3,7 +3,7 @@
   font-family: "Octin College Bold";
   text-align: center;
   min-height: 50rem;
-  margin-top: -3rem;
+  margin-top: 3rem;
 }
 
 .titActividades {
@@ -58,16 +58,19 @@
     flex-direction: column;
     margin-bottom: 50px;
   }
+  .actividades {
+    width: 240px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .actividades {
-    width: 280px;
+    width: 220px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .actividades {
-    width: 250px;
+    width: 190px;
   }
 }

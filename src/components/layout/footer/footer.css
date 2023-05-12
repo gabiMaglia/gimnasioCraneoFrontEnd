@@ -156,7 +156,26 @@
       margin-top: 3px;
       
     }
-  
+    .formulario h2 {
+    text-align: center;
+    }
+    .formulario p input,
+  .formulario p label{
+    text-align: center;
+    
+  }
+  .formulario label {
+
+    left: 50%; /* Centrar horizontalmente */
+    top: 50%; /* Centrar verticalmente */
+    transform: translate(-50%, -50%);  
+  }
+  .formulario p input:focus~label,
+  .formulario p input:valid~label {
+    top: 1.8125rem;
+    left: 28em;
+    font-size: 0.75rem;
+  }
   
     .info {
     justify-self: center; 

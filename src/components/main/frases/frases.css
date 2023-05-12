@@ -48,7 +48,7 @@ h2 span {
     /* margin-top: -5rem; */
   }
   .say2 {
-    margin-top: 7rem;
+    margin-top: 10rem;
     text-align: center;
   }
 
@@ -65,6 +65,10 @@ h2 span {
       word-break: break-all;
       max-width: 250px;
       /* margin-top: -5rem; */
+    }
+    .say2 {
+      margin-top: 6rem;
+     
     }
   }
 }

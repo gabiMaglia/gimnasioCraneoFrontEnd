@@ -1,12 +1,13 @@
 .mainContacto {
   min-height: 70rem;
   background-color: var(--black);
-  margin-top: -4rem;
+  margin-top: 3rem;
+  padding-inline: 2rem;
 }
 
 .tituloContacto {
   height: 20rem;
-  width: 100%;
+  
   display: flex;
   justify-content: center;
 }
@@ -24,7 +25,7 @@
 .title-box figcaption {
   font-family: "Octin College Bold";
   color: var(--white);
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .contactContainer {
@@ -74,11 +75,31 @@
     padding: 130px 0 0 63px;
     margin-top: 35px;
   }
+  .logoContacto {
+    width: 14rem;
+    height: 14rem;
+
+  }
+  .title-box figcaption {
+    padding-top: 3em;
+    font-size: 1.2em;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 520px) {
   .datosContacto {
     background: url("./../../../assets/img/etc/cuadro2.png") no-repeat center;
     padding: 130px 0 0 13px;
+  }
+  .logoContacto {
+    width: 14rem;
+    height: 14rem;
+
+  }
+  .title-box figcaption {
+    padding-top: 3em;
+    font-size: 1.1em;
+    text-align: center;
   }
 }
