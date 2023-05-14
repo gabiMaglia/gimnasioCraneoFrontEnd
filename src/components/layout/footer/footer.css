@@ -23,7 +23,7 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 2rem 1.5rem;
   gap: 2rem;
 }
 
